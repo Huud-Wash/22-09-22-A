@@ -1,0 +1,25 @@
+dummy_users.dart
+
+import 'package:duh/models/user.dart';
+
+const DUMMY_USERS = {
+
+  '1': User(
+    id: '1',
+    name: 'Maria',
+    email: 'maria@alunos.com.br',
+    avatarUrl:'https://cdn5.vectorstock.com/i/1000x1000/01/69/businesswoman-character-avatar-icon-vector-12800169.jpg',
+  ),
+  '2': User(
+    id: '2',
+    name: 'Rafael',
+    email: 'rafael@alunos.com.br',
+    avatarUrl:'https://thumbs.dreamstime.com/b/male-avatar-icon-flat-style-male-user-icon-cartoon-man-avatar-hipster-vector-stock-91462914.jpg',
+  ),
+  '3': User(
+    id: '3',
+    name: 'Fernanda',
+    email: 'fernanda@zymail.com.br',
+    avatarUrl:'https://as1.ftcdn.net/v2/jpg/01/16/24/44/1000_F_116244459_pywR1e0T3H7FPk3LTMjG6jsL3UchDpht.jpg',
+  ),
+};
